@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: probed
+source: https://chronicle-labs.com/.well-known/
+name: Chronicle Labs Well-Known Endpoints
+description: >-
+  Probe of standard /.well-known/ discovery endpoints on the Chronicle Labs
+  primary host. None are currently published; absence is recorded as valid,
+  expected data for an early-stage product with no public API surface.
+host: chronicle-labs.com
+endpoints:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null

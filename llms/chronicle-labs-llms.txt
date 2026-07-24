@@ -1,0 +1,32 @@
+# Chronicle Labs
+
+> Chronicle Labs is an AI agent testing and validation platform that turns production data into staging environments, so teams can prove their agents work before shipping.
+
+Chronicle Labs is a Y Combinator-backed company building infrastructure for teams running AI agents in production. The platform reconstructs real workflows from production data streams, generates test scenarios from those workflows, runs agents against replicated production environments, and monitors live agents with autonomous recovery. Typical customers are engineering teams operating AI agents in customer service, payments, refunds, and other high-stakes workflows. Chronicle Labs integrates with 100+ production tools. Reported impact: 30x production-derived scenario coverage, 12x more failure modes caught pre-launch, 100x faster workflow mapping, and 80% reduction in critical production failures.
+
+## Product
+
+- [Workflow Discovery](https://chronicle-labs.com/#workflow-discovery): Reconstructs end-to-end workflows from production data streams.
+- [Backtest Arena](https://chronicle-labs.com/#backtest-arena): Runs AI agents against replicated production environments derived from real traffic.
+- [Agent Monitoring and Recovery](https://chronicle-labs.com/#monitoring): Real-time monitoring of production agents with autonomous fix and rollback.
+- [Free Agent Audit](https://chronicle-labs.com/book-call): Initial assessment that reviews an existing agent deployment and surfaces failure modes.
+
+## Get Started
+
+- [Sign up free](https://www.app.chronicle-labs.com/signup): Create a Chronicle Labs account.
+- [Book a demo](https://chronicle-labs.com/book-call): Schedule a guided walkthrough with the team.
+- [Talk to a founder](https://chronicle-labs.com/book-call): Direct conversation with Chronicle Labs founders.
+
+## Documentation
+
+- [Docs](https://chronicle-labs.com/docs): Product documentation, integration guides, and API reference.
+
+## Company
+
+- [Home](https://chronicle-labs.com/): Chronicle Labs homepage.
+- [Contact](https://chronicle-labs.com/contact): Contact the Chronicle Labs team.
+
+## Optional
+
+- [Blog](https://chronicle-labs.com/blog): Posts on AI agent reliability, testing methodology, and production lessons.
+- [Changelog](https://chronicle-labs.com/changelog): Product updates and release notes.

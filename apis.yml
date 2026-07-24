@@ -1,8 +1,21 @@
 aid: chronicle-labs
 name: Chronicle Labs
-description: Chronicle Labs is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Chronicle Labs is a Y Combinator-backed (Spring 2026) company building
+  infrastructure for teams running AI agents in production. The platform turns
+  production data into staging environments: it reconstructs real end-to-end
+  workflows from production data streams, generates test scenarios from those
+  workflows, runs agents against replicated production environments (its
+  Backtest Arena), and monitors live agents with autonomous fix and rollback.
+  The pitch is to help engineering teams prove their AI agents work before they
+  ship, replacing hand-built evals and "vibe-deploying" with backtesting against
+  a team's actual operational reality. Typical customers run AI agents in
+  customer service, payments, refunds, and other high-stakes workflows, and
+  Chronicle Labs reports integrating with 100+ production tools. Founded in San
+  Francisco by Ayman Saleh (CEO) and Rowan Zyadeh. At profiling time the product
+  is accessed via a hosted web application behind sign-up; there is no public
+  API, OpenAPI specification, or SDK, and the company publishes an llms.txt at
+  its primary host.
 url: https://raw.githubusercontent.com/api-evangelist/chronicle-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +23,53 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/eQyquoU7a6oSDASVNxovJDx70.png
 tags:
 - Company
+- AI Agents
+- Agent Testing
+- Agent Evaluation
+- Observability
+- Staging Environments
+- Backtesting
+- LLM Ops
+- Y Combinator
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/chronicle-labs-domain-security.yml
+- type: Website
+  url: https://chronicle-labs.com
+- type: SignUp
+  url: https://www.app.chronicle-labs.com/signup
+- type: Support
+  url: https://chronicle-labs.com/book-call
+- type: LLMsTxt
+  url: llms/chronicle-labs-llms.txt
+- type: WellKnown
+  url: well-known/chronicle-labs-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
