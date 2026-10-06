@@ -47,7 +47,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 image: https://framerusercontent.com/images/eQyquoU7a6oSDASVNxovJDx70.png
 tags:
 - Company
@@ -73,6 +73,8 @@ tags_raw:
 - Artificial Intelligence
 apis: []
 common:
+- url: https://chronicle-labs.com/blog
+  type: Blog
 - type: DomainSecurity
   url: security/chronicle-labs-domain-security.yml
 - type: Website
